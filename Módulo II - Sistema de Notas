@@ -1,0 +1,38 @@
+//CÓDIGO 1//
+<script>
+var media, n1, n2,n3; {
+
+n1= parseInt(prompt('Informe a primeira nota: '));
+n1= eval (n1);
+
+n2= parseInt(prompt('Informe a segunda nota: '));
+n2= eval (n2);
+
+n3= parseInt(prompt('Informe a terceira nota: '));
+n3= eval (n3);
+
+let media = (n1 + n2 + n3)/3;
+
+let resultado = media >= 7 ? "APROVADO." : "REPROVADO.";
+
+    alert(resultado);
+}	
+	</script>
+ 
+ 
+ //CÓDIGO 2// 
+ <script>
+var n1, n2,n3; {
+
+n1= parseInt(prompt('Informe a primeira nota: '));
+n1= eval (n1);
+
+n2= parseInt(prompt('Informe a segunda nota: '));
+n2= eval (n2);
+
+n3= (21 - (n1 + n2));
+n3= eval (n3)
+
+    alert('Nota Mínima para ser Aprovado por Média: ' + n3);
+}	
+	</script>
