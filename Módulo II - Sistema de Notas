@@ -17,11 +17,11 @@ let resultado = media >= 7 ? "APROVADO." : "REPROVADO.";
 
     alert(resultado);
 }	
-	</script>
+</script>
  
  
  //CÓDIGO 2// 
- <script>
+<script>
 var n1, n2,n3; {
 
 n1= parseInt(prompt('Informe a primeira nota: '));
@@ -35,4 +35,4 @@ n3= eval (n3)
 
     alert('Nota Mínima para ser Aprovado por Média: ' + n3);
 }	
-	</script>
+</script>
