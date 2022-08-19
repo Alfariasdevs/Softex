@@ -1,0 +1,30 @@
+//1. uma função tradicional com a palavra reservada “Function” e sem nenhum parâmetro;
+
+function ola() {
+    console.log('Olá')
+    console.log('Anderson')
+    console.log('Farias')
+}
+
+ola()
+
+//2. uma função tradicional com parâmetros e um retorno de valor;
+
+function imc(peso, altura) {
+
+    peso = 69;
+    altura = 1.71;
+    calculo = (peso / (altura*altura))
+    
+    return Math.floor (calculo);
+}
+    
+    console.log(imc());
+
+//3. uma arrow function com parâmetros e que retorne um valor.
+ 
+    const subtracao = (num1, num2) => {
+        return num1 - num2;
+    }
+    
+        console.log(subtracao(300,100));
