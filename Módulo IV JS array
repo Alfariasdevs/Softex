@@ -1,0 +1,12 @@
+var objetoRacao = {
+  nome: 'Kanina',
+  sabor: 'Carne e Cereais',
+  peso: '15kg',
+  indicacao: 'Filhotes'
+}
+
+var arrayIngredientes = ['Milho Integral Moído', 'Farelo de Soja', 'Minerais', 'Vitaminas', 'Gordura Animal Estabilizada'];
+
+console.log("Nome da ração: " + objetoRacao.nome + "  " + "Sabor: " + objetoRacao.sabor + "  " + "Peso: " + objetoRacao.peso + "  " + "Indicação: " + objetoRacao.indicacao);
+
+console.log(arrayIngredientes);
