@@ -1,0 +1,32 @@
+var banco = {
+    agencia: '2213',
+    conta: '102030',
+    tipo: 'Conta Corrente',
+    saldo: 13.13
+}
+
+var add_dinheiro = function(valor){
+    banco.saldo = banco.saldo + valor;
+}
+
+var remov_dinheiro = function(valor){
+    banco.saldo = banco.saldo - valor;
+}
+
+var consultar_saldo = function(){
+    console.log('Saldo Atual: ' + banco.saldo);
+}
+
+var consultar_conta = function(){
+    console.log('Agência: ' + banco.agencia, 'Conta: ' + banco.conta, 'Tipo de Conta: ' + banco.tipo);
+}
+
+consultar_saldo();
+
+add_dinheiro(100);
+consultar_saldo();
+
+remov_dinheiro(30);
+consultar_saldo();
+
+consultar_conta();
